@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wall -g -nostartfiles -Map=tacho1.map -O0 --gc-sections -lm -lgcc -lc -LC:\CooCox\CoIDE\configuration\ProgramData\tacho1 -TC:\CooCox\CoIDE\configuration\ProgramData\tacho1/arm-gcc-link.ld -g -L..\..\..\..\..\..\..\Program Files (x86)\GNU Tools ARM Embedded\4.9 2014q4\arm-none-eabi\lib\armv7e-m\fpu -lm">
+      <target file="tacho1.elf" lastModified="14abc5fbc23">
+         <source file="..\..\..\..\..\..\..\Program Files (x86)\GNU Tools ARM Embedded\4.9 2014q4\arm-none-eabi\lib\armv7e-m\fpu\libm.a" lastModified="14a0c46b480"/>
+         <source file="..\obj\stm32f4xx_syscfg.o" lastModified="14abc216808"/>
+         <source file="..\obj\tacho.o" lastModified="14abc216881"/>
+         <source file="..\obj\HFramePort.o" lastModified="14abc4c2152"/>
+         <source file="..\obj\Uart.o" lastModified="14abc2169be"/>
+         <source file="..\obj\utility.o" lastModified="14abc216a44"/>
+         <source file="..\obj\stm32f4xx_usart.o" lastModified="14abc216af9"/>
+         <source file="..\obj\Assert.o" lastModified="14abc216b5a"/>
+         <source file="..\obj\stm32f4xx_can.o" lastModified="14abc216c18"/>
+         <source file="..\obj\stm32f4xx_dac.o" lastModified="14abc216c8f"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="14abc216ce3"/>
+         <source file="..\obj\stm32f4_discovery.o" lastModified="14abc216d3f"/>
+         <source file="..\obj\main.o" lastModified="14abc216da0"/>
+         <source file="..\obj\TTacho.o" lastModified="14abc216e0f"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="14abc216eb4"/>
+         <source file="..\obj\stm32f4xx_adc.o" lastModified="14abc216f73"/>
+         <source file="..\obj\THFramePort.o" lastModified="14abc5fba15"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="14abc217062"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="14abc2170b5"/>
+         <source file="..\obj\syscalls.o" lastModified="14abc217105"/>
+         <source file="..\obj\stm32f4xx_dma.o" lastModified="14abc2171af"/>
+         <source file="..\obj\stm32f4xx_spi.o" lastModified="14abc21724e"/>
+         <source file="..\obj\stm32f4xx_i2c.o" lastModified="14abc2172fe"/>
+         <source file="..\obj\stm32f4xx_exti.o" lastModified="14abc21735e"/>
+         <source file="..\obj\systemTimer.o" lastModified="14abc2173c1"/>
+         <source file="..\obj\misc.o" lastModified="14abc217419"/>
+         <source file="..\obj\stm32f4xx_tim.o" lastModified="14abc2175ab"/>
+      </target>
+   </processor>
+</history>
